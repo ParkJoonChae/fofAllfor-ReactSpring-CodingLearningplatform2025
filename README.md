@@ -1,71 +1,77 @@
-# FAF (For All For) 프로젝트
+# ReactSpringProject - 코딩 학습 플랫폼 고도화
+## 프로젝트 설정
 
-## 프로젝트 개요
-FAF는 프로그래밍 챌린지, 커뮤니티, 마켓플레이스를 제공하는 종합 플랫폼입니다.
 
-## 기술 스택
-- **Backend**: Spring Boot, MyBatis, MySQL
-- **Frontend**: React, Tailwind CSS
-- **Authentication**: Spring Security, OAuth2
+# ProjectFAF
 
-## 프로젝트 구조
-```
-FAF/
-├── backend/          # Spring Boot 백엔드
-├── frontend/         # React 프론트엔드
-└── README.md
-```
+#### Team FAF
+# 💻 프로젝트 소개
+기존 코딩 학습 플랫폼 프론트 백엔드 분리 및 기능 고도화
 
-## 설치 및 실행
+# 🕒 개발기간
+* 25.08.01 ~ 25.08.22
 
-### 백엔드 설정
-1. `backend/env.example` 파일을 `backend/.env`로 복사
-2. `backend/application.properties.example` 파일을 `backend/src/main/resources/application.properties`로 복사
-3. 환경 변수 설정:
-   ```bash
-   # Google OAuth2 설정
-   GOOGLE_CLIENT_ID=your_google_client_id
-   GOOGLE_CLIENT_SECRET=your_google_client_secret
-   
-   # 데이터베이스 설정
-   DB_HOST=localhost
-   DB_PORT=3306
-   DB_NAME=fafdb
-   DB_USERNAME=your_username
-   DB_PASSWORD=your_password
-   ```
+# 👥 멤버구성
+김정민 - 테이블 구조 재구성
+         JSP -> React -> RestAPI형식 axios API엔드 포인트 작성
+         시험목록 및 상세 기업 페이지 API 구현
 
-### 프론트엔드 설정
-1. `frontend/env.example` 파일을 `frontend/.env`로 복사
-2. 환경 변수 설정:
-   ```bash
-   REACT_APP_API_BASE_URL=http://localhost:8080/FAF
-   ```
+박준채 - 문제목록 페이징 및 정렬
+         상세 사용자, 관리자 마이 페이지 API 구현
+         
+         
+강경원 -  커뮤니티 페이징 및 검색 정렬
+         사용자 관리(로그인, 회원가입) - > SpringSecurity로그인 API 구현
 
-### 데이터베이스 설정
-1. MySQL 데이터베이스 생성
-2. `backend/fafdb.sql` 파일 실행하여 테이블 생성
+박원빈 - 디자인 및 프론트 디렉토리 구조 구축
+         기존 정답 검증 시스템 및 채점 -> LLM모델로 전환
+         
 
-### 실행
-```bash
-# 백엔드 실행
-cd backend
-./mvnw spring-boot:run
+# 개발환경
+* `Java11, React, Node`
+* **DataBase**: MySQL
+* **ORM** : MyBatis
 
-# 프론트엔드 실행
-cd frontend
-npm install
-npm start
-```
+# 주요기능 
 
-## 개발 서버
-- **백엔드**: http://localhost:8080/FAF
-- **프론트엔드**: http://localhost:3000
+마켓 장바구니
+<img width="1100" height="618" alt="image" src="https://github.com/user-attachments/assets/4b2a9f74-fa38-4dd7-9024-5a93133f2041" />
 
-## 주의사항
-- `.env` 파일과 `application.properties` 파일은 절대 커밋하지 마세요
-- 개인정보(API 키, 비밀번호 등)는 환경 변수로 관리하세요
-- `localhost:8080`은 개발 환경에서만 사용하세요
+<img width="1113" height="618" alt="image" src="https://github.com/user-attachments/assets/7998ba51-b4ab-4884-a9f2-a57cb57dfd79" />
 
-## 라이선스
-이 프로젝트는 MIT 라이선스 하에 배포됩니다.
+         
+문제풀이기능
+<img width="1800" height="896" alt="image" src="https://github.com/user-attachments/assets/e9637fea-e371-44c2-86f8-d68f37b11473" />
+
+
+AI코드 어시스턴트
+<img width="1854" height="920" alt="image" src="https://github.com/user-attachments/assets/1ee2cf7b-caa3-458b-97f0-45612e683906" />
+
+
+코딩테스트
+<img width="1854" height="913" alt="image" src="https://github.com/user-attachments/assets/a11e73f6-091c-4f45-8082-3193ac575457" />
+
+
+시험관리 & 사용자관리
+<img width="1137" height="633" alt="image" src="https://github.com/user-attachments/assets/8a30690e-f577-4357-84f6-9037d8e00b75" />
+
+
+커뮤니티&게시글기능
+<img width="1248" height="694" alt="image" src="https://github.com/user-attachments/assets/17a596b1-cbdd-4707-81da-d05dd2213959" />
+
+<img width="1249" height="693" alt="image" src="https://github.com/user-attachments/assets/9021d398-ec56-4be1-961b-d139589d458a" />
+
+
+
+
+
+
+
+
+# 데이터베이스
+
+<img width="2446" height="1404" alt="image" src="https://github.com/user-attachments/assets/3be149b8-98dd-46ab-92ed-147dfe60ff0c" />
+
+
+<
+
